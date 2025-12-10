@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Najlepsze Ubezpieczenia – Szybka Wycena</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #eef2f7;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 650px;
+            margin: 40px auto;
+            background: white;
+            padding: 35px;
+            border-radius: 18px;
+            box-shadow: 0 4px 25px rgba(0,0,0,0.12);
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .logo img {
+            width: 120px;
+        }
+        h1 {
+            text-align: center;
+            color: #1a1a1a;
+        }
+        p {
+            text-align: center;
+            color: #444;
+            font-size: 18px;
+        }
+        form {
+            margin-top: 25px;
+        }
+        input[type="text"], input[type="email"], input[type="tel"] {
+            width: 100%;
+            padding: 14px;
+            margin-bottom: 18px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            font-size: 17px;
+        }
+        button {
+            width: 100%;
+            padding: 16px;
+            background: #0077cc;
+            color: white;
+            border: none;
+            font-size: 19px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #005fa3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="https://via.placeholder.com/300x100?text=UBEZPIECZENIA+PRO" alt="Logo Ubezpieczenia" />
+        </div>
+
+        <h1>Uzyskaj Najlepszą Ofertę Ubezpieczenia</h1>
+        <p>Porównamy dla Ciebie oferty od czołowych towarzystw ubezpieczeniowych i dobierzemy najkorzystniejszą cenę. Szybko, bezpłatnie i bez zobowiązań.</p>
+
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Twoje imię" required />
+            <input type="tel" name="phone" placeholder="Numer telefonu" required />
+            <input type="email" name="email" placeholder="Adres e-mail" required />
+            <button type="submit">Odbierz Darmową Wycenę</button>
+        </form>
+    </div>
+</body>
+</html>
